@@ -1,0 +1,13 @@
+Please see the original JOpenID: http://code.google.com/p/jopenid/
+
+This is JOpenID Revision 124 with all dependencies removed.
+
+== Difference compared to the original version
+
+* Package: org.expressme.openid -> jopenid
+* OpenIdManager: Functions that take HttpServletRequest will take Map<String, String> instead
+
+== Using with SBT
+
+val sonatypeSnapshot = "Sonatype Snapshot" at "https://oss.sonatype.org/content/repositories/snapshots"
+val mjopenid = "tv.cntt" % "minimal-jopenid" % "1.09-SNAPSHOT"
